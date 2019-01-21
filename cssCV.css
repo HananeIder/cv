@@ -1,0 +1,22 @@
+h1
+{
+  color: green;
+  text-align: center;
+  }
+ h2
+{
+  color: gray;
+  margin-left: 40px;
+}
+
+
+h3
+{
+  font-style: italic;
+}
+
+h4
+{
+ color: gray;
+ font-style: italic;
+}
