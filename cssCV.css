@@ -1,22 +1,117 @@
-h1
-{
-  color: green;
-  text-align: center;
-  }
- h2
-{
-  color: gray;
-  margin-left: 40px;
+h2 {
+ color: ;
+ text-align: center;
+ 
 }
 
-
-h3
-{
-  font-style: italic;
+.cv{
+width : 950px;
+margin : auto;
+font-size : 15px;
+font-family : 'Source sans Pro',Calibri, Tahama, sans-serif;
+border: solid 2px blue;
+padding :15px;
+background-color: PowderBlue;
 }
 
-h4
+form.recherche {
+	position: absolute;
+	top: 6em;
+}
+  
+.contact{
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;  
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 100px;
+	font-family: Verdana, sans-serif;
+	text-align: justify;
+}
+.Compétence{
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	border-radius: 10px;
+	font-family: Verdana, sans-serif;
+	text-align: justify
+}
+.Formation {
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	font-family: Verdana, sans-serif;
+	text-align: justify
+
+}
+.Experience{
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+    font-family: Verdana, sans-serif;
+	text-align: justify
+
+}
+.Langue{
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	font-family: Verdana, sans-serif;
+	text-align: justify
+}
+.
+.Autre{
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	font-family: Verdana, sans-serif;
+	text-align: justify
+}
+.Experience{border-width:4px;
+	border-style:solid;
+	border-color:pink;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	font-family: Verdana, sans-serif;
+    text-align: justify
+}
+
+}
+body
 {
- color: gray;
- font-style: italic;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	background-color: AE4D92;
+}
+.mdl-slider__container {
+    background-color: Khaki !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
 }
