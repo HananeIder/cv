@@ -1,3 +1,5 @@
+
+
 //ajoute une fonction efectuée lorsque l'utilisateur scroll sur la page
 window.addEventListener("scroll", function() { 
 
@@ -18,3 +20,4 @@ function myScroll() {
 // valeur de progress de la bare qui permet de changer et modifier la page avec scroll	
 	var value =(progress * (document.body.offsetHeight - window.innerHeight))/100;
 	window.scroll(0,value);
+}
