@@ -3,7 +3,13 @@ h2 {
  text-align: center;
  
 }
-
+ul.navbar{
+	position: absolute;
+	top: 7em;
+	width: 3em;
+	left: 3em; 
+	right: 3em
+}
 .cv{
 width : 950px;
 margin : auto;
@@ -22,18 +28,18 @@ form.recherche {
 .contact{
 	border-width:4px;
 	border-style:solid;
-	border-color:pink;  
+	border-color:purple;  
 	width:70vw;
 	margin-left: 200px;
 	margin-right: 200px;
-	margin-top: 100px;
+	margin-top: 150px;
 	font-family: Verdana, sans-serif;
 	text-align: justify;
 }
 .Compétence{
 	border-width:4px;
 	border-style:solid;
-	border-color:pink;
+	border-color:purple;
 	width:70vw;
 	margin-left: 200px;
 	margin-right: 200px;
@@ -45,7 +51,7 @@ form.recherche {
 .Formation {
 	border-width:4px;
 	border-style:solid;
-	border-color:pink;
+	border-color:purple;
 	width:70vw;
 	margin-left: 200px;
 	margin-right: 200px;
@@ -57,8 +63,7 @@ form.recherche {
 .Experience{
 	border-width:4px;
 	border-style:solid;
-	border-color:pink;
-	width:70vw;
+	border-color:purple
 	margin-left: 200px;
 	margin-right: 200px;
 	margin-top: 10px;
@@ -69,7 +74,7 @@ form.recherche {
 .Langue{
 	border-width:4px;
 	border-style:solid;
-	border-color:pink;
+	border-color:purple;
 	width:70vw;
 	margin-left: 200px;
 	margin-right: 200px;
@@ -81,7 +86,7 @@ form.recherche {
 .Autre{
 	border-width:4px;
 	border-style:solid;
-	border-color:pink;
+	border-color:purple;
 	width:70vw;
 	margin-left: 200px;
 	margin-right: 200px;
@@ -91,7 +96,37 @@ form.recherche {
 }
 .Experience{border-width:4px;
 	border-style:solid;
-	border-color:pink;
+	border-color:purple;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	font-family: Verdana, sans-serif;
+    text-align: justify
+}
+.Langues{border-width:4px;
+	border-style:solid;
+	border-color:purple;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	font-family: Verdana, sans-serif;
+    text-align: justify
+}
+.Autre{border-width:4px;
+	border-style:solid;
+	border-color:purple;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	font-family: Verdana, sans-serif;
+    text-align: justify
+}
+.Divers{border-width:4px;
+	border-style:solid;
+	border-color:purple;
 	width:70vw;
 	margin-left: 200px;
 	margin-right: 200px;
@@ -100,14 +135,7 @@ form.recherche {
     text-align: justify
 }
 
-}
-body
-{
-	border-width:1px;
-	border-style:solid;
-	border-color:black;
-	background-color: AE4D92;
-}
+
 .mdl-slider__container {
     background-color: Khaki !important; /* Met le fond de la barre en blanc */
     position: fixed !important; /* Permet de définir la position de la barre comme fixe */
