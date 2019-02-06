@@ -1,5 +1,3 @@
-
-
 //ajoute une fonction efectuée lorsque l'utilisateur scroll sur la page
 window.addEventListener("scroll", function() { 
 
